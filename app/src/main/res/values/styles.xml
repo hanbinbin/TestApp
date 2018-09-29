@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 应用主题-->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--标题栏颜色(actionBar)-->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <!--状态通知栏颜色(StatusBar)-->
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <!--系统控件默认颜色(radioButton,edittext等)-->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--启动页主题-->
+    <style name="AppBaseTheme.Launcher">
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>
