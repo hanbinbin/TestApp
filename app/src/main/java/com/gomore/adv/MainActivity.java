@@ -73,6 +73,7 @@ public class MainActivity extends Activity implements SensorEventListener {
                 SensorManager.SENSOR_DELAY_FASTEST);
         Toast.makeText(this, "测试", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "测试1", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "测试Bug修改", Toast.LENGTH_SHORT).show();
     }
 
     @Override
