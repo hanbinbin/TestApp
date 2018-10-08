@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Created by asus on 2018/2/5.
@@ -24,5 +25,6 @@ public class SecondActivity extends Activity {
                 startActivity(intent);
             }
         });
+        Toast.makeText(this, "测试", Toast.LENGTH_SHORT).show();
     }
 }
